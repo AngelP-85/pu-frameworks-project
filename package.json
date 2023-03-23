@@ -1,0 +1,23 @@
+{
+  "name": "work-rate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-prometheus-middleware": "^1.2.0",
+    "express-rate-limit": "^6.7.0",
+    "json-server": "^0.17.3",
+    "jsonwebtoken": "^9.0.0",
+    "memory-cache": "^0.2.0"
+  }
+}
